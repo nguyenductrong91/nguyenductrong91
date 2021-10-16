@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Locale;
+
 public class Main {
 
 
@@ -22,13 +24,19 @@ public class Main {
         Day saturday = Day.SATURDAY;
         Day sunday = Day.SUNDAY;
         System.out.printf("Thứ Hai :"+ monday);
-        System.out.printf("Thứ Ba :"+ tuesday);
-        System.out.printf("Thứ Tư :"+ wednesday);
-        System.out.printf("Thứ Năm :"+ thursday);
-        System.out.printf("Thứ Sáu :"+ friday);
-        System.out.printf("Thứ Bảy :"+ saturday);
-        System.out.printf("Chủ Nhật :"+ sunday);
-
+        System.out.printf(" Thứ Ba :"+ tuesday);
+        System.out.printf(" Thứ Tư :"+ wednesday);
+        System.out.printf(" Thứ Năm :"+ thursday);
+        System.out.printf(" Thứ Sáu :"+ friday);
+        System.out.printf(" Thứ Bảy :"+ saturday);
+        System.out.printf(" Chủ Nhật :"+ sunday);       
     }
 }
+
+
+
+
+
+
+
 
