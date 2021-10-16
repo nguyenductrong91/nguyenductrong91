@@ -14,7 +14,10 @@ public class Main {
         String s_wordReplace = s.replace("khó", "dễ");
         System.out.println("chuỗi sau khi đổi khó sang dễ là:" + s_wordReplace);
         System.out.println("index của ký tự j là :" + s.indexOf('j'));
-
+        String s1 = s.substring(0,1);
+        String s2 = s.substring(1, s.length()-2);
+        String s3 = s.substring(s.length()-1,s.length());
+        System.out.println("chuỗi ký tự khi viết hoa chữ cái đầu và cuối là :"+s1.toUpperCase()+s2+s3.toUpperCase());
 
 
         Day monday = Day.MONDAY;
