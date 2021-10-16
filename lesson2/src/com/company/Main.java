@@ -16,6 +16,7 @@ public class Main {
         System.out.println("index của ký tự j là :" + s.indexOf('j'));
 
 
+
         Day monday = Day.MONDAY;
         Day tuesday = Day.TUESDAY;
         Day wednesday = Day.WEDNESDAY;
@@ -23,20 +24,18 @@ public class Main {
         Day friday = Day.FRIDAY;
         Day saturday = Day.SATURDAY;
         Day sunday = Day.SUNDAY;
-        System.out.printf("Thứ Hai :"+ monday);
-        System.out.printf(" Thứ Ba :"+ tuesday);
-        System.out.printf(" Thứ Tư :"+ wednesday);
-        System.out.printf(" Thứ Năm :"+ thursday);
-        System.out.printf(" Thứ Sáu :"+ friday);
-        System.out.printf(" Thứ Bảy :"+ saturday);
-        System.out.printf(" Chủ Nhật :"+ sunday);       
+
+
+
+        System.out.println("Thứ Hai :"+ monday);
+        System.out.println("Thứ Ba :"+ tuesday);
+        System.out.println("Thứ Tư :"+ wednesday);
+        System.out.println("Thứ Năm :"+ thursday);
+        System.out.println("Thứ Sáu :"+ friday);
+        System.out.println("Thứ Bảy :"+ saturday);
+        System.out.println("Chủ Nhật :"+ sunday);
     }
 }
-
-
-
-
-
 
 
 
