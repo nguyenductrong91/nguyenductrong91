@@ -74,8 +74,6 @@ public class Main {
             break;
 
             case 2:
-
-
                 //bài 2
                 System.out.println("Nhập điểm lần lượt 4 môn Toán , Văn , Lý , Hóa :");
                 double math = sc.nextDouble();
